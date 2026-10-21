@@ -18,4 +18,9 @@ lingdongyun.best/
 
 | 文件夹 | 说明 |
 | --- | --- |
-| （暂无） | |
+| [`lingdongyun.best/`](lingdongyun.best/) | 灵动云官网落地页 + 教程，部署到 https://lingdongyun.best |
+
+## 部署
+
+- **GitHub Pages**：`.github/workflows/pages.yml` 会在 `lingdongyun.best/` 有改动时自动把该文件夹发布到 Pages。首次需在 Settings → Pages → Source 选 **GitHub Actions**，Custom domain 填 `lingdongyun.best`。
+- **Cloudflare Pages**（可选）：构建命令留空，输出目录填 `lingdongyun.best`。
